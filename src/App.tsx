@@ -1,4 +1,5 @@
 import React from 'react';
+import Practice from './components/practice';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,8 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Hello Charlie.
         </p>
+        <Practice>Let's Workout!</Practice>
         <a
           className="App-link"
           href="https://reactjs.org"
